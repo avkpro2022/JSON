@@ -9,6 +9,5 @@
    "API testing via Postman (JS, API autotests)",
    "Removing and reading logs from an external server",                   
    "Sniffing http web traffic via Charles and Fiddler",
-   "and much more": ["Dev Tools of web browsers:
-   "Google","Chrome","FireFox"]                                                 
+   "and much more": {"Dev Tools of web browsers: [Google","Chrome","FireFox"]                                          
 }
