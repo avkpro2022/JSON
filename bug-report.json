@@ -1,19 +1,16 @@
 {
-    "ShortDiscription": "The search in the dream book on the main page",
-    "Project": "http://www.ameno.ru/",
-    "applicationComponent": "Search in_ he dream book",
-    "VersionNumber": 1,
-    "Importance": "S3-major",
-    "Priority": "High",
-    "Status": "New",
-    "Author": "Fox Mulder",
-    "assigned to": "Danna Skaly",
-    "step playback": [{
-    "Open the main page of the site: {"http://www.ameno.ru / --> At the bottom of the page we find the section} : {DREAM BOOK (see the copy of the screen - highlighted with a yellow frame)"}],
-    "Enter a search word, for example <night>",
-    "Click the <Find> button"
-   ]
-    "ActualResult": "The request failed validation",
-    "ExpectedResult": "The search was successful, the description of the required sleep is shown correctly"
+	"ShortDiscription": "The search in the dream book on the main page",
+	"Project": "http://www.ameno.ru/",
+	"applicationComponent": "Search in_ he dream book",
+	"VersionNumber": 1,
+	"Importance": "S3-major",
+	"Priority": "High",
+	"Status": "New",
+	"Author": "Fox Mulder",
+	"assignedTo": "Danna Skaly",
+	"step playback": "http: //www.ameno.ru/",
+	"Enter_a_search_word,_for_example": "night",
+	"Click the 'Find' button": true,
+	"ActualResult": "The request failed validation",
+	"ExpectedResult": "The search was successful, the description of the required sleep is shown correctly"
 }
-
